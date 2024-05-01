@@ -31,7 +31,7 @@ import java.net.URISyntaxException;
 	    
 	        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	        
-	        
+	      
 
 	        // Create a panel to hold the buttons using FlowLayout
 	        JPanel panel = new JPanel(new FlowLayout(FlowLayout.CENTER, 70, 300)); // Center alignment with 10px horizontal and vertical gap
@@ -110,7 +110,7 @@ import java.net.URISyntaxException;
 	        JButton button = new JButton(text);
 	        button.setBackground(Color.ORANGE); // Set background color to orange
 	        button.setForeground(Color.BLACK); // Set foreground (text) color to black
-	        button.setFont(new Font("Arial", Font.BOLD, 24));
+	       
 	        return button;
 	    }
 
